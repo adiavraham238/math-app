@@ -1,0 +1,235 @@
+import { StyleSheet } from 'react-native';
+import { Dimensions } from 'react-native';
+
+const { width } = Dimensions.get('window');
+
+export const globalStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  innerContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+  },
+  logoText: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#007AFF',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  input: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#f5f5f5',
+    borderRadius: 10,
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    fontSize: 16,
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+  authButton: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#007AFF',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  authButtonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  switchButton: {
+    marginTop: 20,
+  },
+  switchButtonText: {
+    color: '#007AFF',
+    fontSize: 16,
+  },
+  logoEmoji: {
+    fontSize: 80,
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  formContainer: {
+    width: '100%',
+    paddingHorizontal: 20,
+    marginTop: 40,
+  },
+  character: {
+    fontSize: 120,
+    marginBottom: 30,
+  },
+  numberText: {
+    fontSize: 72,
+    fontWeight: 'bold',
+    color: '#007AFF',
+    marginBottom: 20,
+  },
+  welcomeText: {
+    fontSize: 32,
+    fontWeight: '600',
+    textAlign: 'center',
+    marginBottom: 30,
+    paddingHorizontal: 20,
+  },
+  questionText: {
+    fontSize: 36,
+    fontWeight: '600',
+    textAlign: 'center',
+    marginBottom: 40,
+    paddingHorizontal: 20,
+    color: '#333',
+  },
+  optionsContainer: {
+    width: '100%',
+    alignItems: 'center',
+    gap: 20,
+  },
+  optionButton: {
+    backgroundColor: '#007AFF',
+    padding: 20,
+    borderRadius: 15,
+    alignItems: 'center',
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  optionText: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: '600',
+  },
+  signOutButton: {
+    backgroundColor: '#ff3b30',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 40,
+    width: '80%',
+  },
+  signOutText: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  screenTitle: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20,
+    color: '#333',
+  },
+  topicScrollContainer: {
+    padding: 20,
+    alignItems: 'center',
+  },
+  topicCard: {
+    backgroundColor: '#fff',
+    width: width * 0.9,
+    padding: 20,
+    borderRadius: 15,
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    alignItems: 'center',
+  },
+  topicIcon: {
+    fontSize: 40,
+    marginBottom: 10,
+  },
+  topicTitle: {
+    fontSize: 24,
+    fontWeight: '600',
+    marginBottom: 8,
+    color: '#007AFF',
+  },
+  topicDescription: {
+    fontSize: 16,
+    color: '#666',
+    textAlign: 'center',
+  },
+  lessonHeader: {
+    padding: 20,
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  lessonTitle: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#007AFF',
+  },
+  lessonSubtitle: {
+    fontSize: 18,
+    color: '#666',
+    marginTop: 5,
+  },
+  lessonContent: {
+    flex: 1,
+    padding: 20,
+  },
+  lessonTitleText: {
+    fontSize: 24,
+    fontWeight: '600',
+    marginBottom: 10,
+    color: '#333',
+  },
+  lessonContentText: {
+    fontSize: 18,
+    color: '#444',
+    marginBottom: 20,
+    lineHeight: 24,
+  },
+  examplesContainer: {
+    flex: 1,
+    marginTop: 10,
+  },
+  exampleText: {
+    fontSize: 18,
+    marginBottom: 15,
+    paddingLeft: 10,
+    color: '#333',
+  },
+  lessonNavigation: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 20,
+    borderTopWidth: 1,
+    borderTopColor: '#eee',
+  },
+  navButton: {
+    backgroundColor: '#007AFF',
+    padding: 15,
+    borderRadius: 10,
+    width: 120,
+    alignItems: 'center',
+  },
+  navButtonDisabled: {
+    backgroundColor: '#ccc',
+  },
+  navButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+}); 
